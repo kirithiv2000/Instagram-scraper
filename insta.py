@@ -5,18 +5,7 @@ from getpass import getpass #To hide password while entering
 import json,time,pprint,os
 ##########################
 username = input('Enter your username: ')
-# username='r.kirithiv'
-# username='vknaik63@gmail.com' 
-# username='bhavneshchamare'
-# username='me.yogessh'
-
-
 password = getpass('Enter your password: ') # we are hiding password using getpass while entering
-# password='kirithiv2000'
-# password='kumar56789'
-# password='bhavnesh'
-# password='akshayakshay'
-
 ###############################################
 def insta():
 	global dic
